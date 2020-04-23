@@ -1,0 +1,33 @@
+To run the run length encoding/decoding, run the file RLE-RLD.c from command line and 
+use either the text images Garfield (for RLE) or GarfieldCompressed (for RLD) as the file input. You will 
+need a C compiler such as GCC. 
+1. gcc RLE-RLD.c
+2. gcc -o RLE-RLD RLE-RLD.c
+3. RLE-RLD < Garfield.txt
+OR 
+3. RLE-RLD < GarfieldCompressed.txt
+
+To run the game of life simulation, you will again need a C compiler such as GCC. 
+
+1. gcc GameOfLife.c
+2. gcc -o GOL GameOfLife.c
+3. GOL 
+
+You will then be asked for an input for the size of the board and the number of simulations to run. 
+For example, below shows that the board is 6x6 and wants 20 iterations. Followed by the board input. 
+6 6 20
+.X...X
+X.X.X.
+X...X.
+X..XX.
+..XX.X
+...X.X
+
+Once input, the program will begin and complete its simulation to produce the board below. 
+...X..
+..X.X.
+..X.X.
+...X..
+......
+......
+
